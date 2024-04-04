@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bia" />
+
+    <EditText
+        android:id="@+id/etRName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="20sp"
+        android:hint="Họ tên"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/etRPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:padding="20sp"
+        android:hint="Số điện thoại"
+        app:layout_constraintEnd_toEndOf="@id/etRName"
+        app:layout_constraintStart_toStartOf="@id/etRName"
+        app:layout_constraintTop_toBottomOf="@+id/etRName" />
+
+    <EditText
+        android:id="@+id/etREmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="20sp"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="@id/etRPhone"
+        app:layout_constraintStart_toStartOf="@id/etRPhone"
+        app:layout_constraintTop_toBottomOf="@+id/etRPhone" />
+
+    <EditText
+        android:id="@+id/etRPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/etREmail"
+        app:layout_constraintStart_toStartOf="@+id/etREmail"
+        app:layout_constraintTop_toBottomOf="@+id/etREmail" />
+
+    <EditText
+        android:id="@+id/etVPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Xác nhận mật khẩu"
+        android:inputType="numberPassword"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/etRPassword"
+        app:layout_constraintStart_toStartOf="@+id/etRPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etRPassword" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3F51B5"
+        android:padding="20dp"
+        android:text="ĐĂNG KÝ"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/etVPassword"
+        app:layout_constraintStart_toStartOf="@+id/etVPassword"
+        app:layout_constraintTop_toBottomOf="@+id/etVPassword" />
+</androidx.constraintlayout.widget.ConstraintLayout>

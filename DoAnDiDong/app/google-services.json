@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139777778723",
+    "project_id": "datlichkham-bd64f",
+    "storage_bucket": "datlichkham-bd64f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139777778723:android:97354d7d0b107e1d387d96",
+        "android_client_info": {
+          "package_name": "com.example.doandidong"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139777778723-ken10slnj8g638g0lts2vnh60d70mdc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUCC6Mfx5LzQMVf02CZmBv6NvuR4KhM6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139777778723-ken10slnj8g638g0lts2vnh60d70mdc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoAnDiDong</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="minimum_password">Mật khẩu quá ngắn, nhập mật khẩu tối thiểu 6 kí tự!</string>
+    <string name="auth_failed">Đăng nhập không thành công! Email hoặc mật khẩu không đúng.</string>
+</resources>
